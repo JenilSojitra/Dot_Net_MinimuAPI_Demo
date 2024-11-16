@@ -1,4 +1,4 @@
-# Dot_Net_RestAPI_Demo
+# Dot_Net_MinimalAPI_Demo
 
 # Product API - Minimal CRUD Application
 
