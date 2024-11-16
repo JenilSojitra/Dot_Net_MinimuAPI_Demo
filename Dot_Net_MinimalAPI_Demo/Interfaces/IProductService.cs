@@ -1,7 +1,7 @@
-﻿using Dot_Net_MinimalAPI_Demo.Helper;
+﻿using Dot_Net_MinimalAPI_Demo.Helpers;
 using Dot_Net_MinimalAPI_Demo.Models;
 
-namespace Dot_Net_MinimalAPI_Demo.Interface
+namespace Dot_Net_MinimalAPI_Demo.Interfaces
 {
     public interface IProductService
     {

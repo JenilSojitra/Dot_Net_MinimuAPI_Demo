@@ -1,8 +1,8 @@
-﻿using Dot_Net_MinimalAPI_Demo.Helper;
-using Dot_Net_MinimalAPI_Demo.Interface;
+﻿using Dot_Net_MinimalAPI_Demo.Helpers;
+using Dot_Net_MinimalAPI_Demo.Interfaces;
 using Dot_Net_MinimalAPI_Demo.Models;
 
-namespace Dot_Net_MinimalAPI_Demo.Service
+namespace Dot_Net_MinimalAPI_Demo.Services
 {
     public class ProductService : IProductService
     {
@@ -164,7 +164,7 @@ namespace Dot_Net_MinimalAPI_Demo.Service
                 {
                     status = "success",
                     Message = "Products updated successfully...",
-                    data = oldProduct
+                    data = product
                 };
             }
             catch (Exception ex)

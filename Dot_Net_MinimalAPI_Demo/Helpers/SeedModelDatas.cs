@@ -1,6 +1,6 @@
 ﻿using Dot_Net_MinimalAPI_Demo.Models;
 
-namespace Dot_Net_MinimalAPI_Demo.Helper
+namespace Dot_Net_MinimalAPI_Demo.Helpers
 {
     public static class SeedModelDatas
     {

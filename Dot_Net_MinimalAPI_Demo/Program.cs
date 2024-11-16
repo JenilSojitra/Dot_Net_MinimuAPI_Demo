@@ -1,5 +1,6 @@
-using Dot_Net_MinimalAPI_Demo.Interface;
-using Dot_Net_MinimalAPI_Demo.Service;
+using Dot_Net_MinimalAPI_Demo.Endpoints;
+using Dot_Net_MinimalAPI_Demo.Interfaces;
+using Dot_Net_MinimalAPI_Demo.Services;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -45,8 +46,6 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseAuthorization();
-
-app.MapControllers();
+app.RegisterProductEndpoints();
 
 app.Run();
