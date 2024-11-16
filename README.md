@@ -1,13 +1,13 @@
 # Dot_Net_RestAPI_Demo
 
-# Product API - RESTful CRUD Application
+# Product API - Minimal CRUD Application
 
-This is a **RESTful API** built with **.NET Core 6.0** for managing product data. The API supports CRUD (Create, Read, Update, Delete) operations and provides endpoints to interact with product details such as name, category, price, supplier, and more.
+This is a **Minimal API** built with **.NET Core 6.0** for managing product data. The API supports CRUD (Create, Read, Update, Delete) operations and provides endpoints to interact with product details such as name, category, price, supplier, and more.
 
 ## Features
 
 - Full CRUD operations for Products
-- RESTful API design
+- Minimal API design
 - Swagger/OpenAPI documentation
 - Repository pattern implementation
 - Input validation
@@ -26,15 +26,15 @@ This is a **RESTful API** built with **.NET Core 6.0** for managing product data
 ## Project Structure
 
 ```
-DotNetRestAPIDemo/
-├── DotNetRestAPIDemo/
-│   ├── Controllers/
-│   |    └── ProductController.cs
-|   ├── Helper/ 
+Dot_Net_MinimalAPI_Demo/
+├── Dot_Net_MinimalAPI_Demo/
+|   ├── Endpoints/ 
+|   |    └── ProductEndpoints.cs
+|   ├── Helpers/ 
 |   |    └── FormValidations.cs
 |   |    └── Response.cs
 |   |    └── SeedModelDatas.cs
-|   ├── Intergace/ 
+|   ├── Interfaces/ 
 |   |    └── IProductService.cs
 |   ├── Models/
 │   |    └── Product.cs
@@ -47,21 +47,21 @@ DotNetRestAPIDemo/
 |   ├── Program.cs
 ├── .gitignore
 ├── README.md
-└── DotNetRestAPIDemo.sln
+└── Dot_Net_MinimalAPI_Demo.sln
 ```
 
 ## Getting Started
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/JenilSojitra/Dot_Net_RestAPI_Demo.git
-cd Dot_Net_RestAPI_Demo
+git clone https://github.com/JenilSojitra/Dot_Net_MinimuAPI_Demo.git
+cd Dot_Net_MinimalAPI_Demo
 ```
 
 2. Build and run the project:
 ```bash
 dotnet build
-dotnet run --project DotNetRestAPIDemo
+dotnet run --project Dot_Net_MinimalAPI_Demo
 ```
 
 ## API Endpoints

@@ -1,4 +1,4 @@
-﻿namespace Dot_Net_MinimalAPI_Demo.Helper
+﻿namespace Dot_Net_MinimalAPI_Demo.Helpers
 {
     public class Response
     {
